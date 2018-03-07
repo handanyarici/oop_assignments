@@ -27,6 +27,12 @@ public class App {
 
 		}
 		
+		public static boolean two(int a, int b, int c) {
+			//handan
+			return false;
+
+		}
+		
 	
 	
 	
