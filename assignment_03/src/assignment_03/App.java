@@ -16,7 +16,7 @@ public class App {
 		twoSumOne(3, 2, 2) <b>---></b> false <br>
 	 */
 		public static boolean twoSumOne(int a, int b, int c) {
-			return false;
+			return a+b==c || b+c ==a || a+c == b?true:false;
 
 		}
 
