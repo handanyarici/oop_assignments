@@ -14,7 +14,7 @@ public class TestingUtils {
 
 		boolean[] params4 = { false, false, true, false, false, true, true, true, true, false, true, true };
 
-		boolean[] expected = { true, false, true, false, true, true, false, false, true, true, true, false };
+		boolean[] expected = { true, false, true, true, true, true, false, false, true, true, true, false };
         
 		for(int i=0; i < params1.length; i++){
 			boolean result = App.isOrdered(params1[i], params2[i], params3[i], params4[i]);
